@@ -4,7 +4,7 @@
 
 ## 🧩 Projects Included
 
-### 🧮 1. Student Information System (`challenge_1_student_info.py`)
+### 🧮 1. Student Information System (https://github.com/narmadhabalaji/python_challenges/blob/main/Student_Profile_Creator.ipynb)
 
 **Concepts Covered:** Variables, Lists, Append, Print Formatting  
 
