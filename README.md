@@ -12,7 +12,7 @@
 You’re helping manage basic student data for a small school.  
 The program stores each student’s name, age, and favorite subjects, then updates and displays their modified subject lists.  
 
-**Key Skills:**
+**Features:**
 - Creating and printing multiple variables  
 - Using lists to store data  
 - Appending new items to a list  
