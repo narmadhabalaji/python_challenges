@@ -20,7 +20,7 @@ The program stores each student’s name, age, and favorite subjects, then updat
 
 ---
 
-### 🔐 2. [Secret Message Decoder] (https://github.com/narmadhabalaji/python_challenges/blob/main/Secret_Message_Decoder.ipynb)
+### 🔐 2. [Secret Message Decoder](https://github.com/narmadhabalaji/python_challenges/blob/main/Secret_Message_Decoder.ipynb)
 
 **Concepts Covered:** String Methods, Slicing, len(), and Text Transformation  
 
@@ -37,7 +37,7 @@ Your program cleans and transforms the message without using `if`, `in`, or `for
 
 ---
 
-### 🏪 3. [Retail Inventory Manager] (https://github.com/narmadhabalaji/python_challenges/blob/main/Retail_Inventory_Manager.ipynb)
+### 🏪 3. [Retail Inventory Manager](https://github.com/narmadhabalaji/python_challenges/blob/main/Retail_Inventory_Manager.ipynb)
 
 **Concepts Covered:** Tuples, Lists, Append, Pop, and Indexing  
 
