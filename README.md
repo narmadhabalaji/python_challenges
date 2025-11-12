@@ -4,7 +4,7 @@
 
 ## 🧩 Projects Included
 
-### 🧮 1. Student Information System (https://github.com/narmadhabalaji/python_challenges/blob/main/Student_Profile_Creator.ipynb)
+### 🧮 1. [Student Information System](https://github.com/narmadhabalaji/python_challenges/blob/main/Student_Profile_Creator.ipynb)
 
 **Concepts Covered:** Variables, Lists, Append, Print Formatting  
 
@@ -20,7 +20,7 @@ The program stores each student’s name, age, and favorite subjects, then updat
 
 ---
 
-### 🔐 2. Secret Message Decoder (`challenge_2_secret_message_decoder.py`)
+### 🔐 2. [Secret Message Decoder] (https://github.com/narmadhabalaji/python_challenges/blob/main/Secret_Message_Decoder.ipynb)
 
 **Concepts Covered:** String Methods, Slicing, len(), and Text Transformation  
 
@@ -37,7 +37,7 @@ Your program cleans and transforms the message without using `if`, `in`, or `for
 
 ---
 
-### 🏪 3. Retail Inventory Manager (`challenge_3_retail_inventory_manager.py`)
+### 🏪 3. [Retail Inventory Manager] (https://github.com/narmadhabalaji/python_challenges/blob/main/Retail_Inventory_Manager.ipynb)
 
 **Concepts Covered:** Tuples, Lists, Append, Pop, and Indexing  
 
