@@ -53,14 +53,34 @@ Certain categories (like *Electronics*, *Stationery*, and *Clothing*) are fixed,
 
 ---
 
+### 🏪 4. [Student Grades & Hobbies Tracker](https://github.com/narmadhabalaji/python_challenges/blob/main/Student_Grades_%26_Hobbies_Tracker.ipynb)
+
+**Concepts Covered:** Dictionary, Set, Frozenset, User Input  
+
+**Scenario:**  
+You’re helping a student activity coordinator manage student grades and track student hobbies efficiently.
+The program allows grades to be added or updated and hobbies to be stored uniquely and immutably.  
+
+**Features:**
+- Create and update a dictionary of student names and grades
+- Take multiple student inputs for grade updates
+- Store hobbies in a set (ensures uniqueness)
+- Convert hobbies to a frozenset (immutable collection)
+- Display updated student info and hobbies
+
+---
+
 ## 🧠 Concept Highlights
 
 | Concept | Description |
-|----------|-------------|
+|---------|-------------|
 | **Tuple (Immutable)** | Used for fixed data like product categories |
 | **List (Mutable)** | Used for modifiable data like product names |
 | **String Methods** | `.upper()`, `.lower()`, `.replace()`, `.isalpha()` |
 | **Slicing** | Used to reverse or extract specific parts of a string |
+| **Dictionary** | Stores key-value pairs for student grades |
+| **Set** | Stores unique hobbies |
+| **Frozenset** | Immutable set to protect hobby data |
 | **User Input** | Real-time interactivity for practice |
 
 ---
@@ -69,4 +89,6 @@ Certain categories (like *Electronics*, *Stationery*, and *Clothing*) are fixed,
 
 You can run these files in:
 - 🧮 **Google Colab** (upload the `.py` or `.ipynb` file)  
+- 💻 **Local Python environment** (run `.py` files in IDE or terminal)
+ 
 
