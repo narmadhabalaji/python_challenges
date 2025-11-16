@@ -16,8 +16,8 @@ A beginner-friendly collection of small Python projects designed to strengthen c
 
 ## 📖 About the Project
 
-This repository contains **five short Python challenges** designed to help beginners learn and apply core Python concepts using simple real-life scenarios.  
-Each project is structured to be easy to read, run, and modify — making it perfect for practice, self-learning, or teaching.
+This repository contains **short Python challenges** designed to help beginners learn and apply core Python concepts using simple real-life scenarios.  
+Each project is structured to be easy to read, run, and modify — making it perfect for practice, self-learning or teaching.
 
 ---
 
