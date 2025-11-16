@@ -1,94 +1,144 @@
-# 🐍 Python Practice Challenges
+# ⭐ Python Challenges Repository
+
+A beginner-friendly collection of small Python projects designed to strengthen core programming skills. These challenges cover fundamental concepts such as variables, strings, lists, tuples, dictionaries, slicing, loops, and user input. Ideal for students and beginners practicing Python basics.
 
 ---
 
-## 🧩 Projects Included
-
-### 🧮 1. [Student Information System](https://github.com/narmadhabalaji/python_challenges/blob/main/Student_Profile_Creator.ipynb)
-
-**Concepts Covered:** Variables, Lists, Append, Print Formatting  
-
-**Scenario:**  
-You’re helping manage basic student data for a small school.  
-The program stores each student’s name, age, and favorite subjects, then updates and displays their modified subject lists.  
-
-**Features:**
-- Creating and printing multiple variables  
-- Using lists to store data  
-- Appending new items to a list  
-- Displaying formatted output  
+## 📌 Table of Contents
+- [About the Project](#about-the-project)
+- [Projects Included](#projects-included)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
-### 🔐 2. [Secret Message Decoder](https://github.com/narmadhabalaji/python_challenges/blob/main/Secret_Message_Decoder.ipynb)
+## 📖 About the Project
 
-**Concepts Covered:** String Methods, Slicing, len(), and Text Transformation  
-
-**Scenario:**  
-You’re decoding a “secret message” with mixed letters, spaces, and numbers.  
-Your program cleans and transforms the message without using `if`, `in`, or `for`.  
-
-**Features:**
-- Converts message to uppercase and lowercase  
-- Replaces spaces with underscores  
-- Extracts every 3rd character using slicing (`[::3]`)  
-- Reverses the message  
-- Checks if the text contains only alphabets  
+This repository contains **five short Python challenges** designed to help beginners learn and apply core Python concepts using simple real-life scenarios.  
+Each project is structured to be easy to read, run, and modify — making it perfect for practice, self-learning, or teaching.
 
 ---
 
-### 🏪 3. [Retail Inventory Manager](https://github.com/narmadhabalaji/python_challenges/blob/main/Retail_Inventory_Manager.ipynb)
+## 🗂️ Projects Included
 
-**Concepts Covered:** Tuples, Lists, Append, Pop, and Indexing  
-
-**Scenario:**  
-You’re managing an inventory system for a retail store.  
-Certain categories (like *Electronics*, *Stationery*, and *Clothing*) are fixed, while product lists can change dynamically.  
-
-**Features:**
-- Tuple for fixed product categories (Immutable)  
-- List for mutable product items  
-- User can add a new product and remove one by index  
-- Displays final inventory summary  
+### **1️⃣ Student Information System**
+- Concepts: variables, lists, append, input, print formatting  
+- Task: Gather and display student information in a structured format  
+- File: `challenge_1_student_info.ipynb`
 
 ---
 
-### 🏪 4. [Student Grades & Hobbies Tracker](https://github.com/narmadhabalaji/python_challenges/blob/main/Student_Grades_%26_Hobbies_Tracker.ipynb)
-
-**Concepts Covered:** Dictionary, Set, Frozenset, User Input  
-
-**Scenario:**  
-You’re helping a student activity coordinator manage student grades and track student hobbies efficiently.
-The program allows grades to be added or updated and hobbies to be stored uniquely and immutably.  
-
-**Features:**
-- Create and update a dictionary of student names and grades
-- Take multiple student inputs for grade updates
-- Store hobbies in a set (ensures uniqueness)
-- Convert hobbies to a frozenset (immutable collection)
-- Display updated student info and hobbies
+### **2️⃣ Secret Message Decoder**
+- Concepts: strings, slicing, case methods, text transformation  
+- Task: Encode/decode a message by reversing/slicing and applying string methods  
+- File: `challenge_2_secret_message.ipynb`
 
 ---
 
-## 🧠 Concept Highlights
-
-| Concept | Description |
-|---------|-------------|
-| **Tuple (Immutable)** | Used for fixed data like product categories |
-| **List (Mutable)** | Used for modifiable data like product names |
-| **String Methods** | `.upper()`, `.lower()`, `.replace()`, `.isalpha()` |
-| **Slicing** | Used to reverse or extract specific parts of a string |
-| **Dictionary** | Stores key-value pairs for student grades |
-| **Set** | Stores unique hobbies |
-| **Frozenset** | Immutable set to protect hobby data |
-| **User Input** | Real-time interactivity for practice |
+### **3️⃣ Retail Inventory Manager**
+- Concepts: tuples, lists, indexing, append/pop  
+- Task: Manage a simple store inventory and update stock  
+- File: `challenge_3_inventory_manager.ipynb`
 
 ---
 
-## ⚙️ How to Run
+### **4️⃣ Student Grades & Hobbies Tracker**
+- Concepts: dictionaries, lists, loops, averages, input handling  
+- Task: Store student details, calculate average grades, and list hobbies  
+- File: `challenge_4_grades_hobbies.ipynb`
 
-You can run these files in:
-- 🧮 **Google Colab** (upload the `.py` or `.ipynb` file)  
-- 💻 **Local Python environment** (run `.py` files in IDE or terminal)
- 
+---
+
+### **5️⃣ BMI Calculator (Body Mass Index)**
+- Concepts: input handling, arithmetic, conditional statements  
+- Task: Take weight & height as input, calculate BMI, classify the category  
+- Code:
+
+```python
+#getting input
+weight=int(input('Enter your weight(in kg):'))
+height=float(input('Enter your height (in meter):'))
+
+BMI=weight/(height*height)
+
+#categorizing BMI
+if BMI < 18.5:
+  category="Under Weight"
+elif BMI <= 24.9:
+  category="Normal Weight"
+elif BMI <= 29.9 :
+  category="Over Weight"
+elif BMI <= 34.9: 
+  category="Obesity Class 1"
+elif BMI <= 39.9:
+  category="Obesity Class 2"
+else:
+  category="Extreme Obesity"
+
+print('\nYour BMI is:',round(BMI,2))
+print("Your BMI Category is:", category)
+```
+
+---
+
+## 🛠️ Built With
+- **Python 3.x**
+- **Jupyter Notebook (ipynb)**  
+- Works on:
+  - Google Colab  
+  - VS Code  
+  - Jupyter Lab / Notebook  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+You need Python and Jupyter Notebook (or Google Colab) to run these challenges.
+
+```bash
+pip install notebook
+```
+
+---
+
+## 📥 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/narmadhabalaji/python_challenges.git
+```
+
+Navigate to the folder:
+
+```bash
+cd python_challenges
+```
+
+Open any challenge in Jupyter:
+
+```bash
+jupyter notebook
+```
+
+---
+
+## ▶️ Usage
+
+You can run these challenges in:
+- Jupyter Notebook  
+- Google Colab  
+- VS Code (with Python + Jupyter extensions)
+
+Simply open the `.ipynb` file and run the cells one by one.
+
+---
 
