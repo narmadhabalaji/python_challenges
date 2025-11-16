@@ -11,12 +11,7 @@ A beginner-friendly collection of small Python projects designed to strengthen c
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
+  
 ---
 
 ## 📖 About the Project
@@ -28,63 +23,38 @@ Each project is structured to be easy to read, run, and modify — making it per
 
 ## 🗂️ Projects Included
 
-### **1️⃣ Student Information System**
+### [**1️⃣ Student Profile Creator**](https://github.com/narmadhabalaji/python_challenges/blob/main/Student_Profile_Creator.ipynb)
 - Concepts: variables, lists, append, input, print formatting  
 - Task: Gather and display student information in a structured format  
-- File: `challenge_1_student_info.ipynb`
+- File: `Student_Profile_Creator.ipynb`
 
 ---
 
-### **2️⃣ Secret Message Decoder**
+### [**2️⃣ Secret Message Decoder**](https://github.com/narmadhabalaji/python_challenges/blob/main/Secret_Message_Decoder.ipynb)
 - Concepts: strings, slicing, case methods, text transformation  
 - Task: Encode/decode a message by reversing/slicing and applying string methods  
-- File: `challenge_2_secret_message.ipynb`
+- File: `Secret_Message_Decoder.ipynb`
 
 ---
 
-### **3️⃣ Retail Inventory Manager**
+### [**3️⃣ Retail Inventory Manager**](https://github.com/narmadhabalaji/python_challenges/blob/main/Retail_Inventory_Manager.ipynb)
 - Concepts: tuples, lists, indexing, append/pop  
 - Task: Manage a simple store inventory and update stock  
-- File: `challenge_3_inventory_manager.ipynb`
+- File: `Retail_Inventory_Manager.ipynb`
 
 ---
 
-### **4️⃣ Student Grades & Hobbies Tracker**
+### [**4️⃣ Student Grades & Hobbies Tracker**](https://github.com/narmadhabalaji/python_challenges/blob/main/Student_Grades_%26_Hobbies_Tracker.ipynb)
 - Concepts: dictionaries, lists, loops, averages, input handling  
 - Task: Store student details, calculate average grades, and list hobbies  
-- File: `challenge_4_grades_hobbies.ipynb`
+- File:`Student_Grades_&_Hobbies_Tracker.ipynb`
 
 ---
 
-### **5️⃣ BMI Calculator (Body Mass Index)**
+### [**5️⃣ BMI Calculator (Body Mass Index)**](https://github.com/narmadhabalaji/python_challenges/blob/main/BMI_Calculator.ipynb)
 - Concepts: input handling, arithmetic, conditional statements  
 - Task: Take weight & height as input, calculate BMI, classify the category  
-- Code:
-
-```python
-#getting input
-weight=int(input('Enter your weight(in kg):'))
-height=float(input('Enter your height (in meter):'))
-
-BMI=weight/(height*height)
-
-#categorizing BMI
-if BMI < 18.5:
-  category="Under Weight"
-elif BMI <= 24.9:
-  category="Normal Weight"
-elif BMI <= 29.9 :
-  category="Over Weight"
-elif BMI <= 34.9: 
-  category="Obesity Class 1"
-elif BMI <= 39.9:
-  category="Obesity Class 2"
-else:
-  category="Extreme Obesity"
-
-print('\nYour BMI is:',round(BMI,2))
-print("Your BMI Category is:", category)
-```
+- File:`BMI_Calculator.ipynb`
 
 ---
 
